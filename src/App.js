@@ -8,12 +8,10 @@ const word = "Hello";
 class App extends Component {
   render() {
     return (
-<div><center>
- <WordCard value="hello"/> 
- </center>
- </div> 
+      <div>
+      <WordCard value="hello"/>
+      </div>
     );
   }
 }
-
 export default App;
